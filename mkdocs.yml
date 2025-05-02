@@ -64,6 +64,7 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+  # - pallete satisfied 5225
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -71,14 +72,14 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: teal
       accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: teal
       accent: indigo
       toggle:
         icon: material/toggle-switch-off
@@ -86,9 +87,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+  favicon: assets/images/favicon.png
+  logo: assets/images/favicon.png
 
 # Plugins
 plugins:
