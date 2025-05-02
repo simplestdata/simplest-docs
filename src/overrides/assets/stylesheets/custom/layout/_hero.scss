@@ -105,6 +105,7 @@
     margin-top: px2rem(10px);
     margin-right: px2rem(10px);
     color: var(--md-primary-bg-color);
+    border-width: 0;
 
     // Button on focus/hover
     &:is(:focus, :hover) {
@@ -115,9 +116,15 @@
 
     // Primary button
     &--primary {
-      color: hsla(280, 37%, 48%, 1);
-      background-color: var(--md-primary-bg-color);
-      border-color: var(--md-primary-bg-color);
+      color: var(--md-primary-bg-color);
+      background-color: #dd2e57;
+      border-color: #dd2e57;
+    }
+
+    // Secondary button
+    &--secondary {
+      color: var(--md-primary-bg-color);
+      background-color: initial;
     }
   }
 }

@@ -97,9 +97,12 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  # insiders reserved _blank
   - privacy:
       links_attr_map:
         target: _blank
+  #- open-in-new-tab:
+  #   add_icon: true
 
 # Hooks
 hooks:
@@ -108,6 +111,7 @@ hooks:
 
 # Additional configuration
 extra:
+  generator: false
   status:
     new: Recently added
     deprecated: Deprecated
@@ -117,16 +121,16 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/simplestdata
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/squidfunk.bsky.social
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/x-twitter
-      link: https://x.com/squidfunk
+    #- icon: fontawesome/brands/docker
+    #  link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    #- icon: fontawesome/brands/python
+    #  link: https://pypi.org/project/mkdocs-material/
+    #- icon: fontawesome/brands/bluesky
+    #  link: https://bsky.app/profile/squidfunk.bsky.social
+    #- icon: fontawesome/brands/mastodon
+    #  link: https://fosstodon.org/@squidfunk
+    #- icon: fontawesome/brands/x-twitter
+    #  link: https://x.com/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -298,7 +302,5 @@ nav:
     - Community experts program:
       - insiders/community-experts-program/index.md
       - Experts community forum: https://community.simplestdata.com
-  #- Blog:
-  #  - blog/index.md
   - Blog:
     - https://blog.simplestdata.com
