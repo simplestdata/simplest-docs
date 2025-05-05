@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Simplest Data Documentation
+title: xAPI Standards Documentation
 social:
   cards_layout_options:
     title: Documentation for xAPI Conformance

@@ -19,11 +19,11 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Simplest Data Docs
+site_name: Simplest Docs
 site_url: https://docs.simplestdata.com
 site_author: Gregory Kulp
 site_description: >-
-  Simplest Data Docs is for official documentation of our open source projects, aiming to globalize xAPI standards adoption.
+  Simplest Docs is for official documentation of our open source projects, aiming to globalize xAPI standards adoption.
 
 # Repository
 repo_name: github.com/simplestdata
@@ -38,8 +38,8 @@ theme:
   custom_dir: material/overrides
   features:
     - announce.dismiss
-    - content.action.edit
-    - content.action.view
+    #- content.action.edit
+    #- content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
@@ -73,14 +73,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: teal
-      accent: indigo
+      accent: teal
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
-      accent: indigo
+      accent: teal
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -125,12 +125,12 @@ extra:
     #  link: https://hub.docker.com/r/squidfunk/mkdocs-material/
     #- icon: fontawesome/brands/python
     #  link: https://pypi.org/project/mkdocs-material/
-    #- icon: fontawesome/brands/bluesky
-    #  link: https://bsky.app/profile/squidfunk.bsky.social
-    #- icon: fontawesome/brands/mastodon
-    #  link: https://fosstodon.org/@squidfunk
-    #- icon: fontawesome/brands/x-twitter
-    #  link: https://x.com/squidfunk
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/gregorykulp.me
+    - icon: fontawesome/brands/slack
+      link: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gregory-kulp/
 
 # Extensions
 markdown_extensions:
@@ -208,10 +208,7 @@ nav:
       - "Social cards":
         - tutorials/social/basic.md
         - tutorials/social/custom.md
-    - Changelog:
-      - changelog/index.md
-      - How to upgrade: upgrade.md
-  - Setup:
+  - (x)API Primer:
     - setup/index.md
     - Changing the colors: setup/changing-the-colors.md
     - Changing the fonts: setup/changing-the-fonts.md
@@ -235,7 +232,7 @@ nav:
       - setup/extensions/index.md
       - Python Markdown: setup/extensions/python-markdown.md
       - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
-  - Plugins:
+  - TLA Suite:
     - plugins/index.md
     - Blog: plugins/blog.md
     - Group: plugins/group.md
@@ -252,7 +249,7 @@ nav:
     - Requirements:
       - Image processing: plugins/requirements/image-processing.md
       - Caching: plugins/requirements/caching.md
-  - Reference:
+  - API Reference:
     - reference/index.md
     - Admonitions: reference/admonitions.md
     - Annotations: reference/annotations.md
@@ -269,7 +266,8 @@ nav:
     - Lists: reference/lists.md
     - Math: reference/math.md
     - Tooltips: reference/tooltips.md
-  - Insiders:
+    - Glossary: reference/glossary.md
+  - Self-Host:
     - insiders/index.md
     - Why sponsor us: insiders/why-sponsor-us.md
     - What's in it for you: insiders/benefits.md
@@ -285,10 +283,12 @@ nav:
       - Support: support.md
     - Using Insiders:
       - Getting started: insiders/getting-started.md
-    - Changelog:
-      - insiders/changelog/index.md
-      - How to upgrade: insiders/upgrade.md
-  - Community:
+  - Developers:
+    - temp: temp.md
+  - Changelog:
+    - insiders/changelog/index.md
+    - How to upgrade: insiders/upgrade.md
+  - Help & Community:
     - Contributing:
       - contributing/index.md
       - Reporting a bug: contributing/reporting-a-bug.md
@@ -302,5 +302,6 @@ nav:
     - Community experts program:
       - insiders/community-experts-program/index.md
       - Experts community forum: https://community.simplestdata.com
-  - Blog:
-    - https://blog.simplestdata.com
+    - Tutorials: comingsoon.md
+    - Blog: https://blog.simplestdata.com
+    - Support: comingsoon.md
