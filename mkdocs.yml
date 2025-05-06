@@ -101,8 +101,8 @@ plugins:
   - privacy:
       links_attr_map:
         target: _blank
-  #- open-in-new-tab:
-  #   add_icon: true
+  - open-in-new-tab:
+     add_icon: true
 
 # Hooks
 hooks:
@@ -234,40 +234,17 @@ nav:
       - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
   - TLA Suite:
     - plugins/index.md
-    - Blog: plugins/blog.md
-    - Group: plugins/group.md
-    - Info: plugins/info.md
-    - Meta: plugins/meta.md
-    - Offline: plugins/offline.md
-    - Optimize: plugins/optimize.md
-    - Privacy: plugins/privacy.md
-    - Projects: plugins/projects.md
-    - Search: plugins/search.md
-    - Social: plugins/social.md
-    - Tags: plugins/tags.md
-    - Typeset: plugins/typeset.md
+    - OrientLRS: plugins/orientlrs.md
+    - TurnpikexAPI: plugins/turnpikexapi.md
     - Requirements:
       - Image processing: plugins/requirements/image-processing.md
       - Caching: plugins/requirements/caching.md
   - API Reference:
     - reference/index.md
-    - Admonitions: reference/admonitions.md
-    - Annotations: reference/annotations.md
-    - Buttons: reference/buttons.md
-    - Code blocks: reference/code-blocks.md
-    - Content tabs: reference/content-tabs.md
-    - Data tables: reference/data-tables.md
-    - Diagrams: reference/diagrams.md
-    - Footnotes: reference/footnotes.md
-    - Formatting: reference/formatting.md
-    - Grids: reference/grids.md
-    - Icons, Emojis: reference/icons-emojis.md
-    - Images: reference/images.md
-    - Lists: reference/lists.md
-    - Math: reference/math.md
-    - Tooltips: reference/tooltips.md
     - Glossary: reference/glossary.md
   - Self-Host:
+    - insiders/index.md
+  - Magna+:
     - insiders/index.md
     - Why sponsor us: insiders/why-sponsor-us.md
     - What's in it for you: insiders/benefits.md
@@ -288,20 +265,25 @@ nav:
   - Changelog:
     - insiders/changelog/index.md
     - How to upgrade: insiders/upgrade.md
+    - Backlog: https://github.com/orgs/simplestdata/projects/3
+    - Feature Requests: https://community.simplestdata.com/c/feature-requests/10
   - Help & Community:
+    - contributing/index.md  # TODO: Detail community guidelines ~ will/should be present in all active public repos (Apache 2.0 / contributor covenant 2.0)
     - Contributing:
-      - contributing/index.md
+      - contributing/index.md 
       - Reporting a bug: contributing/reporting-a-bug.md
       - Reporting a docs issue: contributing/reporting-a-docs-issue.md
       - Requesting a change: contributing/requesting-a-change.md
       - Adding translations: contributing/adding-translations.md
       - Making a pull request: contributing/making-a-pull-request.md
-      - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
-    - Guides:
+      - Asking a question: https://community.simplestdata.com/c/questions/6/l/new
       - Creating a reproduction: guides/creating-a-reproduction.md
-    - Community experts program:
-      - insiders/community-experts-program/index.md
+    - FAQs: 
+      - comingsoon.md # TODO: General FAQ page - include 
+      - Troubleshooting: comingsoon.md # TODO: Troubleshooting page - include 
+    - Addtional Resources:
+      - Community resources: comingsoon.md # TODO: page to direct to leading contributors ie yetanalytics, IEEE resources, TLA study group, etc.,
       - Experts community forum: https://community.simplestdata.com
-    - Tutorials: comingsoon.md
-    - Blog: https://blog.simplestdata.com
-    - Support: comingsoon.md
+      - Blog: https://blog.simplestdata.com
+      - Slack: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
+      - Support: https://simplestdata.com/contact
