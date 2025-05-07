@@ -1,5 +1,5 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-5e0b73.svg)](CODE_OF_CONDUCT.md) [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
-[![issues - orientlrs](https://img.shields.io/github/issues/simplestdata/orientlrs)](https://github.com/simplestdata/orientlrs/issues)[![Docs](https://img.shields.io/badge/Docs-In_Review-orange.svg)](https://docs.simplestdata.com)[![Status](https://img.shields.io/badge/Status-In_Review-red.svg)](README.md)
+[![issues - simplest-docs](https://img.shields.io/github/issues/simplestdata/simplest-docs)](https://github.com/simplestdata/simplest-docs/issues)[![Status](https://img.shields.io/badge/Status-In_Review-red.svg)](README.md)
 
 ## License
 
