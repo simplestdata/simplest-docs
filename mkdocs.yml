@@ -23,7 +23,7 @@ site_name: Simplest Docs
 site_url: https://docs.simplestdata.com
 site_author: Gregory Kulp
 site_description: >-
-  Simplest Docs is for official documentation of our open source projects, aiming to globalize xAPI standards adoption.
+  Documentation tailored to enable Total Learning Architecture (TLA) through xAPI specifications, aiming to globalize xAPI standards by lowering the barrier to entry for implementation.
 
 # Repository
 repo_name: github.com/simplestdata
@@ -209,7 +209,9 @@ nav:
         - tutorials/scholars/index.md
     - Developers: #developers folder - final
       - developers/index.md
-      - Testing: developers/testing.md      
+      - Testing: developers/testing.md
+      - Architecture: developers/architecture.md
+      - Diagrams: developers/diagrams.md   
   - (x)API Primer: #xapi folder - final
     - xapi/index.md
   - API Reference: #reference folder - final
@@ -253,6 +255,7 @@ nav:
       - Making a pull request: contributing/making-a-pull-request.md
       - Asking a question: https://community.simplestdata.com/c/questions/6/l/new
       - Creating a reproduction: guides/creating-a-reproduction.md
+      - License: license.md
     - FAQs: 
       - faq/general.md # TODO: General FAQ page - include 
       - Troubleshooting: faq/troubleshooting.md # TODO: Troubleshooting page - include 
