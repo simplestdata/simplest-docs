@@ -188,7 +188,7 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
+  - Getting started: #base root docs folder
     - Installation: getting-started.md
     - Creating your site: creating-your-site.md
     - Publishing your site: publishing-your-site.md
@@ -199,52 +199,25 @@ nav:
     - Philosophy: philosophy.md
     - Alternatives: alternatives.md
     - License: license.md
-    - Tutorials:
+    - Tutorials: #tutorials folder - final
       - tutorials/index.md
-      - "Blogs":
-        - tutorials/blogs/basic.md
-        - tutorials/blogs/navigation.md
-        - tutorials/blogs/engage.md
-      - "Social cards":
-        - tutorials/social/basic.md
-        - tutorials/social/custom.md
-  - (x)API Primer:
-    - setup/index.md
-    - Changing the colors: setup/changing-the-colors.md
-    - Changing the fonts: setup/changing-the-fonts.md
-    - Changing the language: setup/changing-the-language.md
-    - Changing the logo and icons: setup/changing-the-logo-and-icons.md
-    - Ensuring data privacy: setup/ensuring-data-privacy.md
-    - Setting up navigation: setup/setting-up-navigation.md
-    - Setting up site search: setup/setting-up-site-search.md
-    - Setting up site analytics: setup/setting-up-site-analytics.md
-    - Setting up social cards: setup/setting-up-social-cards.md
-    - Setting up a blog: setup/setting-up-a-blog.md
-    - Setting up tags: setup/setting-up-tags.md
-    - Setting up versioning: setup/setting-up-versioning.md
-    - Setting up the header: setup/setting-up-the-header.md
-    - Setting up the footer: setup/setting-up-the-footer.md
-    - Adding a git repository: setup/adding-a-git-repository.md
-    - Adding a comment system: setup/adding-a-comment-system.md
-    - Building an optimized site: setup/building-an-optimized-site.md
-    - Building for offline usage: setup/building-for-offline-usage.md
-    - Extensions:
-      - setup/extensions/index.md
-      - Python Markdown: setup/extensions/python-markdown.md
-      - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
-  - TLA Suite:
-    - plugins/index.md
-    - OrientLRS: plugins/orientlrs.md
-    - TurnpikexAPI: plugins/turnpikexapi.md
-    - Requirements:
-      - Image processing: plugins/requirements/image-processing.md
-      - Caching: plugins/requirements/caching.md
-  - API Reference:
+      - "OrientLRS":
+        - tutorials/orientlrs/index.md
+      - "TurnpikexAPI":
+        - tutorials/turnpikexapi/index.md
+      - "Scholars":
+        - tutorials/scholars/index.md
+    - Developers: #developers folder - final
+      - developers/index.md
+      - Testing: developers/testing.md      
+  - (x)API Primer: #xapi folder - final
+    - xapi/index.md
+  - API Reference: #reference folder - final
     - reference/index.md
     - Glossary: reference/glossary.md
   - Self-Host:
     - insiders/index.md
-  - Magna+:
+  - Scholars: #insiders folder - final
     - insiders/index.md
     - Why sponsor us: insiders/why-sponsor-us.md
     - What's in it for you: insiders/benefits.md
@@ -257,17 +230,19 @@ nav:
       - Runtime and cancellation: insiders/runtime-and-cancellation.md
       - Privacy: insiders/privacy.md
       - License: insiders/license.md
-      - Support: support.md
+      - Support: insiders/support.md
     - Using Insiders:
       - Getting started: insiders/getting-started.md
-  - Developers:
-    - temp: temp.md
-  - Changelog:
-    - insiders/changelog/index.md
+  - Changelog: #changelog folder - final
+    - changelog/index.md
+    - "Changelogs":
+      - OrientLRS: changelog/orientlrs.md
+      - TurnpikexAPI: changelog/turnpikexapi.md
+      - Scholars: changelog/scholars.md
     - How to upgrade: insiders/upgrade.md
     - Backlog: https://github.com/orgs/simplestdata/projects/3
     - Feature Requests: https://community.simplestdata.com/c/feature-requests/10
-  - Help & Community:
+  - Help & Community: # proper arch - final
     - contributing/index.md  # TODO: Detail community guidelines ~ will/should be present in all active public repos (Apache 2.0 / contributor covenant 2.0)
     - Contributing:
       - contributing/index.md 
@@ -279,11 +254,17 @@ nav:
       - Asking a question: https://community.simplestdata.com/c/questions/6/l/new
       - Creating a reproduction: guides/creating-a-reproduction.md
     - FAQs: 
-      - comingsoon.md # TODO: General FAQ page - include 
-      - Troubleshooting: comingsoon.md # TODO: Troubleshooting page - include 
-    - Addtional Resources:
-      - Community resources: comingsoon.md # TODO: page to direct to leading contributors ie yetanalytics, IEEE resources, TLA study group, etc.,
-      - Experts community forum: https://community.simplestdata.com
-      - Blog: https://blog.simplestdata.com
-      - Slack: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
-      - Support: https://simplestdata.com/contact
+      - faq/general.md # TODO: General FAQ page - include 
+      - Troubleshooting: faq/troubleshooting.md # TODO: Troubleshooting page - include 
+    - Resources:
+      - "Community resources": 
+        - resources/community.md # TODO: page to direct to leading contributors ie yetanalytics, IEEE resources, TLA study group, etc.,
+        - IEEE LTSC Working Groups: https://sagroups.ieee.org/ltsc/workgroups/
+        - TLA Study Group: https://www.tlastudygroup.com/
+        - ADL History: https://www.adlnet.gov/news/2023/11/22/xAPI-Officially-Becomes-a-Published-IEEE-Standard/  
+      - "Additional resources":
+        - Experts community forum: https://community.simplestdata.com
+        - Blog: https://blog.simplestdata.com
+        - Slack: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
+        - Simplest Home: https://simplestdata.com
+        - Support: https://simplestdata.com/contact
