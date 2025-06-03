@@ -240,8 +240,6 @@ nav:
     - "Changelogs":
       - OrientLRS: changelog/orientlrs.md
       - TurnpikexAPI: changelog/turnpikexapi.md
-      - Scholars: changelog/scholars.md
-    - How to upgrade: insiders/upgrade.md
     - Backlog: https://github.com/orgs/simplestdata/projects/3
     - Feature Requests: https://community.simplestdata.com/c/feature-requests/10
   - Help & Community: # proper arch - final
