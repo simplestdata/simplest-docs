@@ -190,9 +190,10 @@ nav:
   - Home: index.md
   - Getting started: #base root docs folder
     - Installation: getting-started.md
+    - (x)API Primer: #xapi folder - final
+      - xapi/index.md
     - Conventions: conventions.md
     - Browser support: browser-support.md
-    - Enterprise feedback: enterprise-support.md
     - Alternatives: alternatives.md
     - License: license.md
     - Tutorials: #tutorials folder - final
@@ -206,8 +207,6 @@ nav:
       - Testing: developers/testing.md
       - Architecture: developers/architecture.md
       - Diagrams: developers/diagrams.md   
-  - (x)API Primer: #xapi folder - final
-    - xapi/index.md
   - API Reference: #reference folder - final
     - reference/index.md
     - Glossary: reference/glossary.md
@@ -256,6 +255,7 @@ nav:
         - TLA Study Group: https://www.tlastudygroup.com/
         - ADL History: https://www.adlnet.gov/news/2023/11/22/xAPI-Officially-Becomes-a-Published-IEEE-Standard/  
       - "Additional resources":
+        - Enterprise feedback: enterprise-support.md
         - Experts community forum: https://community.simplestdata.com
         - Blog: https://blog.simplestdata.com
         - Slack: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
