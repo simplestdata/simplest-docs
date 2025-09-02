@@ -188,66 +188,66 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-  - Getting started: #base root docs folder
-    - Installation: getting-started.md
-    - (x)API Primer: #xapi folder - final
-      - xapi/index.md
-    - Conventions: conventions.md
-    - Browser support: browser-support.md
-    - Alternatives: alternatives.md
-    - License: license.md
-    - Tutorials: #tutorials folder - final
-      - tutorials/index.md
-      - "OrientLRS":
-        - tutorials/orientlrs/index.md
-      - "TurnpikexAPI":
-        - tutorials/turnpikexapi/index.md
-    - Developers: #developers folder - final
-      - developers/index.md
-      - Testing: developers/testing.md
-      - Architecture: developers/architecture.md
-      - Diagrams: developers/diagrams.md   
-  - API Reference: #reference folder - final
-    - reference/index.md
-    - Glossary: reference/glossary.md
-  - Self-Host:
-    - insiders/index.md
-  - Scholars: #insiders folder - final
-    - insiders/index.md
-    - Why sponsor us: insiders/why-sponsor-us.md
-    - What's in it for you: insiders/benefits.md
-    - Who is sponsoring: insiders/our-sponsors.md
-    - Sponsoring tiers: insiders/sponsoring-tiers.md
-    - How to sponsor: insiders/how-to-sponsor.md
-    - Additional information:
-      - Payment and billing: insiders/payment-and-billing.md
-      - Access management: insiders/access-management.md
-      - Runtime and cancellation: insiders/runtime-and-cancellation.md
-      - Privacy: insiders/privacy.md
-      - License: insiders/license.md
-      - Support: insiders/support.md
-    - Using Insiders:
-      - Getting started: insiders/getting-started.md
-  - Changelog: #changelog folder - final
-    - changelog/index.md
-    - "Changelogs":
-      - OrientLRS: changelog/orientlrs.md
-      - TurnpikexAPI: changelog/turnpikexapi.md
-    - Backlog: https://github.com/orgs/simplestdata/projects/3
-    - Feature Requests: https://community.simplestdata.com/c/feature-requests/10
+  #- Getting started: #base root docs folder
+    #- Installation: getting-started.md
+    #- (x)API Primer: #xapi folder - final
+      #- xapi/index.md
+    #- Conventions: conventions.md
+    #- Browser support: browser-support.md
+    #- Alternatives: alternatives.md
+    #- License: license.md
+    #- Tutorials: #tutorials folder - final
+      #- tutorials/index.md
+      #- "OrientLRS":
+        #- tutorials/orientlrs/index.md
+      #- "TurnpikexAPI":
+        #- tutorials/turnpikexapi/index.md
+    #- Developers: #developers folder - final
+      #- developers/index.md
+      #- Testing: developers/testing.md
+     #- Architecture: developers/architecture.md
+      #- Diagrams: developers/diagrams.md   
+  #- API Reference: #reference folder - final
+    #- reference/index.md
+    #- Glossary: reference/glossary.md
+  #- Self-Host:
+    #- insiders/index.md
+  #- Scholars: #insiders folder - final
+    #- insiders/index.md
+    #- Why sponsor us: insiders/why-sponsor-us.md
+    #- What's in it for you: insiders/benefits.md
+    #- Who is sponsoring: insiders/our-sponsors.md
+    #- Sponsoring tiers: insiders/sponsoring-tiers.md
+    #- How to sponsor: insiders/how-to-sponsor.md
+    #- Additional information:
+      #- Payment and billing: insiders/payment-and-billing.md
+      #- Access management: insiders/access-management.md
+      #- Runtime and cancellation: insiders/runtime-and-cancellation.md
+      #- Privacy: insiders/privacy.md
+      #- License: insiders/license.md
+      #- Support: insiders/support.md
+    #- Using Insiders:
+      #- Getting started: insiders/getting-started.md
+  #- Changelog: #changelog folder - final
+    #- changelog/index.md
+    #- "Changelogs":
+      #- OrientLRS: changelog/orientlrs.md
+      #- TurnpikexAPI: changelog/turnpikexapi.md
+    #- Backlog: https://github.com/orgs/simplestdata/projects/3
+    #- Feature Requests: https://community.simplestdata.com/c/feature-requests/10
   - Help & Community: # proper arch - final
-    - contributing/index.md  # TODO: Detail community guidelines ~ will/should be present in all active public repos (Apache 2.0 / contributor covenant 2.0)
-    - Contributing:
-      - contributing/index.md 
-      - Reporting a bug: contributing/reporting-a-bug.md
-      - Reporting a docs issue: contributing/reporting-a-docs-issue.md
-      - Requesting a change: contributing/requesting-a-change.md
-      - Making a pull request: contributing/making-a-pull-request.md
-      - Asking a question: https://community.simplestdata.com/c/questions/6/l/new
-      - License: license.md
-    - FAQs: 
-      - faq/general.md # TODO: General FAQ page - include 
-      - Troubleshooting: faq/troubleshooting.md # TODO: Troubleshooting page - include 
+    #- contributing/index.md  # TODO: Detail community guidelines ~ will/should be present in all active public repos (Apache 2.0 / contributor covenant 2.0)
+    #- Contributing:
+      #- contributing/index.md 
+      #- Reporting a bug: contributing/reporting-a-bug.md
+      #- Reporting a docs issue: contributing/reporting-a-docs-issue.md
+      #- Requesting a change: contributing/requesting-a-change.md
+      #- Making a pull request: contributing/making-a-pull-request.md
+      #- Asking a question: https://community.simplestdata.com/c/questions/6/l/new
+      #- License: license.md
+    #- FAQs: 
+      #- faq/general.md # TODO: General FAQ page - include 
+      #- Troubleshooting: faq/troubleshooting.md # TODO: Troubleshooting page - include 
     - Resources:
       - "Community resources": 
         - resources/community.md # TODO: page to direct to leading contributors ie yetanalytics, IEEE resources, TLA study group, etc.,
@@ -255,7 +255,6 @@ nav:
         - TLA Study Group: https://www.tlastudygroup.com/
         - ADL History: https://www.adlnet.gov/news/2023/11/22/xAPI-Officially-Becomes-a-Published-IEEE-Standard/  
       - "Additional resources":
-        - Enterprise feedback: enterprise-support.md
         - Experts community forum: https://community.simplestdata.com
         - Blog: https://blog.simplestdata.com
         - Slack: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
