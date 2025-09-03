@@ -193,15 +193,8 @@ nav:
     #- (x)API Primer: #xapi folder - final
       #- xapi/index.md
     #- Conventions: conventions.md
-    #- Browser support: browser-support.md
     #- Alternatives: alternatives.md
     #- License: license.md
-    #- Tutorials: #tutorials folder - final
-      #- tutorials/index.md
-      #- "OrientLRS":
-        #- tutorials/orientlrs/index.md
-      #- "TurnpikexAPI":
-        #- tutorials/turnpikexapi/index.md
     #- Developers: #developers folder - final
       #- developers/index.md
       #- Testing: developers/testing.md
@@ -212,27 +205,8 @@ nav:
     #- Glossary: reference/glossary.md
   #- Self-Host:
     #- insiders/index.md
-  #- Scholars: #insiders folder - final
-    #- insiders/index.md
-    #- Why sponsor us: insiders/why-sponsor-us.md
-    #- What's in it for you: insiders/benefits.md
-    #- Who is sponsoring: insiders/our-sponsors.md
-    #- Sponsoring tiers: insiders/sponsoring-tiers.md
-    #- How to sponsor: insiders/how-to-sponsor.md
-    #- Additional information:
-      #- Payment and billing: insiders/payment-and-billing.md
-      #- Access management: insiders/access-management.md
-      #- Runtime and cancellation: insiders/runtime-and-cancellation.md
-      #- Privacy: insiders/privacy.md
-      #- License: insiders/license.md
-      #- Support: insiders/support.md
-    #- Using Insiders:
-      #- Getting started: insiders/getting-started.md
   #- Changelog: #changelog folder - final
     #- changelog/index.md
-    #- "Changelogs":
-      #- OrientLRS: changelog/orientlrs.md
-      #- TurnpikexAPI: changelog/turnpikexapi.md
     #- Backlog: https://github.com/orgs/simplestdata/projects/3
     #- Feature Requests: https://community.simplestdata.com/c/feature-requests/10
   - Help & Community: # proper arch - final
