@@ -23,7 +23,7 @@ site_name: Simplest Docs
 site_url: https://docs.simplestdata.com
 site_author: Gregory Kulp
 site_description: >-
-  Documentation tailored to enable Total Learning Architecture (TLA) through xAPI specifications, aiming to globalize xAPI standards by lowering the barrier to entry for implementation.
+  A unified and comprehensive knowledge hub for navigating the Simplest Data software suite guides, API references, integration playbooks, and more.
 
 # Repository
 repo_name: github.com/simplestdata
@@ -255,8 +255,7 @@ nav:
         - TLA Study Group: https://www.tlastudygroup.com/
         - ADL History: https://www.adlnet.gov/news/2023/11/22/xAPI-Officially-Becomes-a-Published-IEEE-Standard/  
       - "Additional resources":
+        - Support: https://simplestdata.com/contact
         - Experts community forum: https://community.simplestdata.com
         - Blog: https://blog.simplestdata.com
-        - Slack: https://join.slack.com/t/simplestdata/shared_invite/zt-34bz7itkm-nuaOm9G2M7jOANEpij3Y2g
         - Simplest Home: https://simplestdata.com
-        - Support: https://simplestdata.com/contact
