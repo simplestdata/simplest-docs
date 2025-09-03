@@ -224,7 +224,7 @@ nav:
       #- Troubleshooting: faq/troubleshooting.md # TODO: Troubleshooting page - include 
     - Resources:
       - "Community resources": 
-        - resources/community.md # TODO: page to direct to leading contributors ie yetanalytics, IEEE resources, TLA study group, etc.,
+        - Community: https://community.simplestdata.com/
         - IEEE LTSC Working Groups: https://sagroups.ieee.org/ltsc/workgroups/
         - TLA Study Group: https://www.tlastudygroup.com/
         - ADL History: https://www.adlnet.gov/news/2023/11/22/xAPI-Officially-Becomes-a-Published-IEEE-Standard/  
